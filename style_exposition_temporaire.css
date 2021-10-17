@@ -1,0 +1,387 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.exposition_temporaire {
+    font-family: 'Roboto', thin;
+    color: #000000;
+}
+
+.musee {
+    position: absolute;
+    top: 12px;
+    font-weight: 100;
+    font-size: 9px;
+    margin: 0;
+}
+
+.evenement {
+    color: white;
+    position: absolute;
+    top: 45px;
+    font-weight: bold;
+    font-size: x-large;
+    margin: 0;
+    letter-spacing: 6.5px;
+}
+
+.evenement_bloc {
+    position: absolute;
+    background-color: #000000;
+    left: 65px;
+    top: 35px;
+    z-index: -1;
+    width: 235px;
+    height: 46px;
+}
+
+.exposition_temporaire_texte {
+    color: white;
+    position: absolute;
+    top: 98px;
+    font-weight: bold;
+    font-size: 62.5px;
+    margin: 0;
+}
+
+.exposition_temporaire_bloc {
+    position: absolute;
+    background-color: #000000;
+    left: 65px;
+    top: 80px;
+    z-index: -1;
+    width: 710px;
+    height: 107px;
+}
+
+.vinyles_mania {
+    color: white;
+    position: absolute;
+    top: 243px;
+    font-weight: bold;
+    font-size: 34px;
+    margin: 0;
+}
+
+.vinyles_mania_bloc {
+    position: absolute;
+    background-color: #000000;
+    left: 65px;
+    top: 234px;
+    z-index: -1;
+    width: 800px;
+    height: 100px;
+}
+
+.tour {
+    color: white;
+    position: absolute;
+    top: 1093px;
+    font-weight: 700;
+    font-size: 34px;
+    margin: 0;
+    left: 115px;
+}
+
+.tour_bloc {
+    position: absolute;
+    background-color: #000000;
+    left: 65px;
+    top: 1085px;
+    z-index: -1;
+    width: 440px;
+    height: 58px;
+}
+
+.histoire {
+    color: white;
+    position: absolute;
+    top: 1576px;
+    font-weight: 700;
+    font-size: 34px;
+    margin: 0;
+    left: 115px;
+}
+
+.histoire_bloc {
+    position: absolute;
+    background-color: #000000;
+    left: 65px;
+    top: 1568px;
+    z-index: -1;
+    width: 440px;
+    height: 58px;
+}
+
+.AetB {
+    position: absolute;
+    top: 380px;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 35px;
+    margin: 0;
+    left: 175px;
+    right: 725px;
+    padding: 0;
+}
+
+.texte_1_1 {
+    position: absolute;
+    top: 507px;
+    font-weight: 400;
+    font-size: 17px;
+    margin: 0;
+    left: 175px;
+    right: 615px;
+}
+
+.texte_1_3 {
+    position: absolute;
+    top: 799px;
+    font-weight: 400;
+    font-size: 17px;
+    margin: 0;
+    left: 175px;
+    right: 615px;
+}
+
+.texte_2 {
+    position: absolute;
+    top: 1190px;
+    font-weight: 400;
+    font-size: 17px;
+    right: 225px;
+}
+
+.texte_2 p {
+    margin: 0;
+}
+
+.dame1 {
+    width: 259px;
+    height: auto;
+    position: absolute;
+    top: 1190px;
+    left: 115px;
+}
+
+.texte_3_1 {
+    position: absolute;
+    top: 1671px;
+    font-weight: 400;
+    font-size: 17px;
+    margin: 0;
+    left: 175px;
+    right: 500px;
+}
+
+.machinevinyle {
+    width: 170px;
+    height: auto;
+    position: absolute;
+    top: 152px;
+    right: 115px;
+}
+
+.rougevinyle {
+    width: 256px;
+    height: auto;
+    position: absolute;
+    top: 314px;
+    right: 249px;
+}
+
+.machinevinyle2 {
+    width: 280px;
+    height: auto;
+    position: absolute;
+    top: 746px;
+    right: 225px;
+}
+
+.grisvinyle {
+    width: 225px;
+    height: auto;
+    position: absolute;
+    top: 1671px;
+    right: 167px;
+}
+
+.groupe_barrev1 {
+    display: flex;
+    display: absolute;
+    position: absolute;
+    z-index: 8;
+    right: 67px;
+}
+
+.groupe_barrev2 {
+    display: flex;
+    display: absolute;
+    position: absolute;
+    z-index: 8;
+    left: 67px;
+    top: 98px;
+}
+
+.barrev1 {
+    background-color: #000000;
+    width: 3.5px;
+    height: 2231px;
+    margin-left: 10.5px;
+}
+
+.barrev2 {
+    background-color: #000000;
+    width: 3.5px;
+    height: 2133px;
+    margin-left: 10.5px;
+}
+
+.groupe_barrev3 {
+    display: flex;
+    display: absolute;
+    position: absolute;
+    z-index: 8;
+    left: 67px;
+    top: 98px;
+}
+
+.barrev3 {
+    background-color: white;
+    width: 3.5px;
+    height: 89px;
+    margin-left: 10.5px;
+}
+
+.groupe_barrev4 {
+    display: flex;
+    display: absolute;
+    position: absolute;
+    z-index: 8;
+    left: 67px;
+    top: 234px;
+}
+
+.barrev4 {
+    background-color: white;
+    width: 3.5px;
+    height: 100px;
+    margin-left: 10.5px;
+}
+
+.groupe_barrev5 {
+    display: flex;
+    display: absolute;
+    position: absolute;
+    z-index: 8;
+    left: 67px;
+    top: 1018px;
+}
+
+.barrev5 {
+    background-color: white;
+    width: 3.5px;
+    height: 31.5px;
+    margin-left: 10.5px;
+}
+
+.groupe_barrev6 {
+    display: flex;
+    display: absolute;
+    position: absolute;
+    z-index: 8;
+    left: 67px;
+    top: 1085px;
+}
+
+.barrev6 {
+    background-color: white;
+    width: 3.5px;
+    height: 58px;
+    margin-left: 10.5px;
+}
+
+.groupe_barrev7 {
+    display: flex;
+    display: absolute;
+    position: absolute;
+    z-index: 8;
+    left: 67px;
+    top: 1496px;
+}
+
+.barrev7 {
+    background-color: white;
+    width: 3.5px;
+    height: 31.5px;
+    margin-left: 10.5px;
+}
+
+.groupe_barrev8 {
+    display: flex;
+    display: absolute;
+    position: absolute;
+    z-index: 8;
+    left: 67px;
+    top: 1568px;
+}
+
+.barrev8 {
+    background-color: white;
+    width: 3.5px;
+    height: 58px;
+    margin-left: 10.5px;
+}
+
+.separation_bloc1 {
+    position: absolute;
+    background-color: #000000;
+    left: 65px;
+    top: 1018px;
+    z-index: -1;
+    width: 380px;
+    height: 31.5px;
+}
+
+.separation_bloc2 {
+    position: absolute;
+    background-color: #000000;
+    left: 65px;
+    top: 1496px;
+    z-index: -1;
+    width: 380px;
+    height: 31.5px;
+}
+
+.groupe_barreh1 {
+    display: absolute;
+    position: absolute;
+    z-index: 7;
+    left: 65px;
+    top: 1018px;
+}
+
+.barreh1 {
+    background-color: black;
+    width: 710px;
+    height: 3.5px;
+    margin-bottom: 10.5px;
+}
+
+.groupe_barreh2 {
+    display: absolute;
+    position: absolute;
+    z-index: 7;
+    left: 65px;
+    top: 1496px;
+}
+
+.barreh2 {
+    background-color: black;
+    width: 710px;
+    height: 3.5px;
+    margin-bottom: 10.5px;
+}

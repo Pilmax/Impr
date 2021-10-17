@@ -1,0 +1,289 @@
+                .html,
+                body {
+                    margin: 0;
+                    padding: 0;
+                    background-color: #AA1414;
+                }
+                
+                a {
+                    text-decoration: none;
+                }
+                
+                .red_background {
+                    background-color: #AA1414;
+                    height: 220vh;
+                    width: 100vh;
+                    font-family: "Roboto";
+                }
+                
+                .block_general {
+                    left: 102px;
+                    top: 57px;
+                    position: absolute;
+                    margin: 50px 0px 0px 0px;
+                }
+                
+                .block {
+                    display: flex;
+                    flex-direction: column;
+                    z-index: -5;
+                }
+                
+                .titrecomplet {
+                    color: white;
+                }
+                
+                .sous_titre {
+                    background-color: black;
+                    font-size: 13px;
+                    font-weight: 500;
+                    letter-spacing: 5px;
+                    max-width: 7vw;
+                    padding: 8px;
+                }
+                
+                .titreperma {
+                    background-color: black;
+                    font-size: 20px;
+                    padding: 20px 20px 20px 50px;
+                    max-width: 22vw;
+                    max-height: 15vh;
+                }
+                
+                .titreperma h1 {
+                    margin-block-start: 0;
+                    margin-block-end: 0;
+                }
+                
+                .sous_titre p {
+                    margin-block-start: 0;
+                    margin-block-end: 0;
+                }
+                
+                .categorie {
+                    background-color: white;
+                    color: black;
+                    font-size: 23px;
+                    font-weight: 600;
+                    max-width: 17vw;
+                    padding: 0px 0px 0px 50px;
+                    margin: 30px 0px 0px 0px;
+                }
+                
+                .titre_paragraphe {
+                    color: white;
+                    font-size: 20px;
+                    max-width: 15vw;
+                    padding: 8px;
+                    padding: 0px 0px 0px 50px;
+                    margin: 30px 0px 0px 0px;
+                    font-weight: 400;
+                }
+                
+                .paragraphe_perma {
+                    color: white;
+                    margin: 0px 0px 0px 100px;
+                    max-width: 25vw
+                }
+                
+                .flex_white_title_acces {
+                    display: flex;
+                    position: relative;
+                    top: 150px;
+                    left: 110px;
+                    z-index: 1;
+                }
+                
+                .white_title_acces {
+                    width: 3px;
+                    height: 21px;
+                    background-color: white;
+                    margin: 5px 3px 0px 3px;
+                    padding-bottom: 50px;
+                }
+                
+                .flex_black_title_acces {
+                    display: flex;
+                    position: relative;
+                    top: 145px;
+                    left: 110px;
+                    z-index: 0;
+                }
+                
+                .black_title_acces {
+                    width: 3px;
+                    height: 190vh;
+                    background-color: black;
+                    margin: 5px 3px 0px 3px;
+                }
+                
+                .flex_red_title_acces {
+                    display: flex;
+                    position: absolute;
+                    top: 556px;
+                    left: 110px;
+                    z-index: 2;
+                }
+                
+                .red_title_acces {
+                    width: 3px;
+                    height: 0px;
+                    background-color: #AA1414;
+                    margin: 28px 3px 0px 3px;
+                    padding-bottom: 25px;
+                }
+                
+                .black_rectangle {
+                    margin: 0px 0px 0px 0px;
+                    position: relative;
+                    width: 250px;
+                    height: 25px;
+                    background-color: black;
+                }
+                
+                .horizontal_traits {
+                    position: absolute;
+                    left: 200px;
+                    color: black;
+                }
+                
+                .right_vertical_white {
+                    background-color: white;
+                    height: 250vh;
+                    width: 5px;
+                    margin-left: 5px;
+                    margin-right: 5px;
+                }
+                
+                .vertical_white_right {
+                    display: flex;
+                    position: absolute;
+                    right: 50px;
+                    bottom: -1080px;
+                    color: white;
+                }
+                
+                .rouge1 {
+                    top: 1106px;
+                }
+                
+                .rouge2 {
+                    top: 1512px;
+                }
+                
+                .rouge3 {
+                    top: 1938px;
+                }
+                /*footer*/
+                
+                .container-footer-all {
+                    width: fit-content;
+                }
+                
+                .container-body {
+                    display: flex;
+                    font-style: bold;
+                    position: relative;
+                    justify-content: space-between;
+                }
+                
+                .container-body1 {
+                    display: flex;
+                    font-style: bold;
+                    position: absolute;
+                    justify-content: space-between;
+                    width: 90vw;
+                    font-weight: bold;
+                    height: 0;
+                }
+                
+                .logo_droite2 {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    position: absolute;
+                    top: 45%;
+                    height: 333px;
+                    right: 55px;
+                }
+                
+                .vertical_white_footer {
+                    background-color: white;
+                    height: 34vh;
+                    width: 5px;
+                    margin-left: 5px;
+                    margin-right: 5px;
+                }
+                
+                .vertical_white_flex {
+                    display: flex;
+                    position: absolute;
+                    right: 50px;
+                    color: white;
+                }
+                
+                footer {
+                    width: 100%;
+                    height: 80vh;
+                    background-color: black;
+                    color: white;
+                    display: flex;
+                    font-family: 'Roboto', sans-serif;
+                    background-repeat: no-repeat;
+                    position: absolute;
+                    top: 638vh;
+                }
+                
+                .colum {
+                    width: 230px;
+                    margin-left: 8vw;
+                }
+                
+                .colum h2 {
+                    font-size: 25px;
+                }
+                
+                .colum p {
+                    font-size: 16px;
+                }
+                
+                .colum2 {
+                    width: 310px;
+                    margin-left: 50px;
+                }
+                
+                .colum2 a {
+                    color: white;
+                }
+                
+                .lepadding {
+                    padding-top: 38px;
+                }
+                
+                .img_footer {
+                    width: auto;
+                    height: 80px;
+                }
+                
+                .footer_logo {
+                    width: fit-content;
+                    height: fit-content;
+                    position: absolute;
+                    right: 100px;
+                    margin-top: 40px;
+                }
+                
+                .flex_foot {
+                    display: flex;
+                }
+                
+                .footer_logo2 {
+                    width: auto;
+                    height: 250px;
+                }
+                
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
+                /*fin footer*/
